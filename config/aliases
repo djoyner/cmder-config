@@ -1,4 +1,11 @@
+home=cd /d %HOME%
+top=cd /d d:\working\pangaea
+tpam=cd /d c:\working\tpam
+
 e.=explorer .
-gl=git log --oneline --all --graph --decorate  $*
+l=dir $*
 ls=ls --color $*
 pwd=cd
+vmware-mount="C:\Program Files (x86)\VMware\VMware Virtual Disk Development Kit\bin\vmware-mount" $*
+which=where $*
+z=cls

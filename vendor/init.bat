@@ -32,4 +32,7 @@
 :: Set home path
 @set HOME=%USERPROFILE%
 
+:: If command line parameter is supplied, call it
+@if not %1.==. call %1
+
 @if defined CMDER_START cd /d "%CMDER_START%"
